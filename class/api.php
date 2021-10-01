@@ -101,7 +101,7 @@
                 }
 
                 $response['status_code_header'] = 'HTTP/1.1 200 OK';
-                print_r( $result);
+               // print_r( $result);
                 $response['body'] = json_encode($result);
                 return $response;
             }
